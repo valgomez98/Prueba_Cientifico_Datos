@@ -37,9 +37,10 @@ Se usó Jupyter Notebook  que es una aplicación web que sirve a modo de puente 
             8.3 Regresión logística con seleccion de variables
             8.4 Regresión logística con Class weighting (solucionaria el desbalanceo)
             8.5 Xgboost
-            8.6 Decision Tree
-            8.7 Gradient Bosting
-            8.8 Ada Boost
+            8.6 Xgboost con hiperparámetros
+            8.7 Decision Tree
+            8.8 Gradient Bosting
+            8.9 Ada Boost
 9. Análisis de errores.
 10. Selección de mejor modelo.
 11. Arquitectura del proceso.
