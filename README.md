@@ -93,8 +93,11 @@ La arquitectura del proceso ya en producción quedaría de la siguiente forma:
 Con esta arquitectura tendríamos un proceso que se podría ejecutar la predicción al cabo de 24 horas, donde se podría ir reentrenando, asegurando la captura de los fraccionamientos transaccionales.
 
 ## Trabajos Futuros
+
 * Para poder cargar todos los datos, se sugiera hacer la carga y el paso de modelo a spark. Spark ha establecido récords mundiales en cuanto a velocidades de procesamiento se refiere. Se pasaría toda la arquitectura y procesamiento a dicha herramienta.
 
 * Trabajo próximo sería pensar un un forecast pero utilizando ya series de tiempo para pronosticar en promedio cuantos fraccionamientos transaccionales se podrían tener en un día sin haber corrido y los corresponsales mas prospensos a dicho fraude.
+
+* Visualización donde se pueda identificar en dashboard los posibles fraccionamientos en tiempo real para la toma de decisiones, con métricas de procentaje.
 
 
