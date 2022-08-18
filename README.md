@@ -103,6 +103,6 @@ Con esta arquitectura tendríamos un proceso que se podría ejecutar la predicci
 * Visualización donde se pueda identificar en dashboard los posibles fraccionamientos en tiempo real para la toma de decisiones, con métricas de procentaje.
 
 * Ya para el negocio, es necesario evaluar el costo representativo que tienen los fraccionamientos e implementar alguna solución donde se evite que los corresponsales tengan esa mala práctica.
-* 
+
 
 
