@@ -8,7 +8,7 @@ Este proyecto contiene tres archivos:
 
   * Readme con indicaciones importantes.
   * Jupyter notebook donde está detallado todo el proceso.
-  * PDF con explicación de arquitectura de la solución.
+  * PDF con presentación corporativa solución y modelo.
 
 ## Objetivo
 Idear una solución para identificar transacciones que evidencian un comportamiento de Mala Practica Transaccional, empleando un producto de datos.
