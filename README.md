@@ -95,12 +95,14 @@ Con esta arquitectura tendríamos un proceso que se podría ejecutar la predicci
 
 ## Trabajos Futuros
 
-* Para poder cargar todos los datos, se sugiera hacer la carga y el paso de modelo a spark. Spark ha establecido récords mundiales en cuanto a velocidades de procesamiento se refiere. Se pasaría toda la arquitectura y procesamiento a dicha herramienta.
+* Para poder cargar todos los datos, se sugiera hacer la carga y el paso de modelo a spark. Spark ha establecido récords mundiales en cuanto a velocidades de procesamiento se refiere. Se pasaría toda la arquitectura y procesamiento a dicha herramienta. Además se podría explorar con el nuevo amazon SageMaker studio Lab para mejorar el rendimiento de la corrida de códigos.
+
 
 * Trabajo próximo sería pensar un un forecast pero utilizando ya series de tiempo para pronosticar en promedio cuantos fraccionamientos transaccionales se podrían tener en un día sin haber corrido y los corresponsales mas prospensos a dicho fraude.
 
 * Visualización donde se pueda identificar en dashboard los posibles fraccionamientos en tiempo real para la toma de decisiones, con métricas de procentaje.
 
 * Ya para el negocio, es necesario evaluar el costo representativo que tienen los fraccionamientos e implementar alguna solución donde se evite que los corresponsales tengan esa mala práctica.
+* 
 
 
