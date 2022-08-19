@@ -62,9 +62,11 @@ Se realizaron varios modelos, unos con selección de variables, ajustes de hiper
 
 En el jupyter se presenta los ranking de los modelos entrenados.
 
-Aunque otros modelos dieron métricas mucho mejores, debemos evitar el overfiting, conocido como el sobre ajuste, donde funciona excelente los datos como se entrenó el modelo pero a la hora de seleccionar otros datos, tiene un pésimo rendimiento. Se sacrifica rendimiento, pero se garantiza no caer en overfiting.
+Debemos evitar el overfiting, conocido como el sobre ajuste, donde funciona excelente los datos como se entrenó el modelo pero a la hora de seleccionar otros datos, tiene un pésimo rendimiento. Se sacrifica rendimiento, pero se garantiza no caer en overfiting.
 
-Recordamos que la forma de evitar el overfiting y logrando cada vez un mejor modelo es haciendo ajuste de hiperparámetros, selección de variables y solucionando los desbalanceos de clases, realizando pruebas de validación cruzada.
+Recordamos que la forma de evitar el overfiting y logrando cada vez un mejor modelo es haciendo ajuste de hiperparámetros, selección de variables y solucionando los desbalanceos de clases, realizando pruebas de validación cruzada. 
+El modelo elegido aunque los demás tenian un ROC AUC parecidos, se analizó que la curva que mejor se ajustaba fue el modelo elegido.
+
 
 ## Arquitectura de la solución
 
@@ -80,6 +82,7 @@ La arquitectura del proceso  de entrenamiento:
         * Preprocesamiento para las variables categóricas para hacer el OneHotEncoder
         * Entrenamiento del modelo respectivo.
         * Ajuste de hiperparámetros.
+        * En algunos se le implementó selección de variables y en otros el desbalanceo directamente
     7. Con la muestra de testeo se sacan las métricas mas importantes para saber el rendimiento del modelo.
     8. Se selecciona el mejor modelo.
     9. Paso a producción.
