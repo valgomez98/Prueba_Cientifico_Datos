@@ -58,13 +58,14 @@ Esta es una de las métricas más importantes utilizadas para medir el rendimien
 Así es como ROC-AUC nos permite evaluar el rendimiento de nuestro modelo, y nos proporciona un medio para seleccionar un modelo.
 
 ## Criterios de selección
-Se realizaron varios modelos, unos con selección de variables, ajustes de hiperparámetros y solucionando el desbalanceo presente para este ejercio. Comparando cada una de las dos métricas seleccionadas (F1 y curva ROC-AUC), el modelo seleccionado fue:
+Se realizaron varios modelos, unos con selección de variables, ajustes de hiperparámetros y solucionando el desbalanceo presente para este ejercio. Comparando cada una de las dos métricas seleccionadas (F1 y curva ROC-AUC), el modelo seleccionado fue: Random Forest con class Weight
 
 En el jupyter se presenta los ranking de los modelos entrenados.
 
 Debemos evitar el overfiting, conocido como el sobre ajuste, donde funciona excelente los datos como se entrenó el modelo pero a la hora de seleccionar otros datos, tiene un pésimo rendimiento. Se sacrifica rendimiento, pero se garantiza no caer en overfiting.
 
 Recordamos que la forma de evitar el overfiting y logrando cada vez un mejor modelo es haciendo ajuste de hiperparámetros, selección de variables y solucionando los desbalanceos de clases, realizando pruebas de validación cruzada. 
+
 El modelo elegido aunque los demás tenian un ROC AUC parecidos, se analizó que la curva que mejor se ajustaba fue el modelo elegido.
 
 
